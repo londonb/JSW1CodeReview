@@ -15,8 +15,8 @@ exports.getRepos = function(userName){
          }
          $('#results').append('</ul>');
 
+    })
     }).fail(function(error){
-    console.log(error.responseJSON.message);
-    });
+    console.log(error.responseJSON.message);;
   });
 };
