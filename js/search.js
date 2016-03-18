@@ -5,7 +5,7 @@ exports.getRepos = function(userName){
     console.log(JSON.stringify(response));
     $('#results').append('<h3>Public Repositories</h3><ul>');
     response.forEach(function(repo){
-    $('#results').append('<li>' + repo.name + '</li>');
+    $('#results').append('<li>' + repo.name + ' : ' + repo.description + '</li>');
     });
     $('#results').append('</ul>');
 
