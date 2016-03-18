@@ -1,10 +1,9 @@
 var apiKey = require('./../.env').apiKey;
 
-
-exports.search = function(userName) {
-  this.userName = userName;
-};
-
-exports.getRepos = function() {
-  return 'https://api.github.com/users/' + this.userName + '?access_token=' + apiKey;
+exports.getRepos = function(userName){
+  $.get('https://api.github.com/users/' + userName +'?access_token=' + apiKey).then(function(response){
+    console.log(JSON.stringify(response));
+  }).fail(function(error){
+    console.log(error.responseJSON.message);
+  });
 };
