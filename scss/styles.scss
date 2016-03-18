@@ -1,13 +1,20 @@
-$gray : #d3d3d3;
-
 .box {
-  background: $gray;
+  background: #0B7A75;
   border: 3px solid black;
   padding: 40px 80px;
   .button {
     font-weight: bold;
     text-align: center;
-    background: red;
+    background: #554971;
     color: white;
   }
+}
+
+.container{
+  background: #7EBC89;
+}
+
+#results {
+  background: #F2C078;
+  text-align: center;
 }
