@@ -44,7 +44,7 @@ This current version will only list up to 100 repositories for a given user. Thi
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2016 Chris Young
+Copyright (c) 2016 Brad London
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
